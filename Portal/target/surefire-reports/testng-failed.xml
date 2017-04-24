@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tests]" parallel="classes">
+  <listeners>
+    <listener class-name="flow.ImplementListeners"/>
+  </listeners>
+  <test name="admin">
+    <classes>
+      <class name="flow.TestFactory"/>
+    </classes>
+  </test> <!-- admin -->
+</suite> <!-- Failed suite [Tests] -->

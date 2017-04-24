@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests" verbose="1" parallel="classes" thread-count="1" preserve-order="true">
+
+	<listeners>
+		<listener class-name="flow.ImplementListeners" />
+       <!-- <listener class-name="flow.ExtentReporterNG" /> -->
+	</listeners>
+
+	<test name="admin" junit="false" preserve-order="true"> <!-- Default will run in order -->
+	
+		<classes>
+			<class name="flow.TestFactory" />
+		</classes>
+
+		<!-- <groups> <run> <include name="FunctionalTest" /> </run> </groups> -->
+
+	</test>
+
+</suite>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report directory: C:\Users\vinodkumara\Desktop\SFapp_Automation\Portal\test-output\html]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="170388" started-at="2017-04-12T05:58:48Z" finished-at="2017-04-12T06:01:38Z">
+    <groups>
+      <group name="FunctionalTest">
+        <method signature="SFDCaccountcreation.CreateAcc_SFDC_01()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_01" class="test.ATMScenarios.SFDCaccountcreation"/>
+        <method signature="SFDCaccountcreation.CreateAcc_SFDC_02()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_02" class="test.ATMScenarios.SFDCaccountcreation"/>
+        <method signature="SFDCaccountcreation.CreateAcc_SFDC_03()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_03" class="test.ATMScenarios.SFDCaccountcreation"/>
+        <method signature="SFDCaccountcreation.CreateAcc_SFDC_04()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_04" class="test.ATMScenarios.SFDCaccountcreation"/>
+        <method signature="SFDCaccountcreation.CreateAcc_SFDC_05()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_05" class="test.ATMScenarios.SFDCaccountcreation"/>
+      </group> <!-- FunctionalTest -->
+    </groups>
+    <test name="Default test" duration-ms="170388" started-at="2017-04-12T05:58:48Z" finished-at="2017-04-12T06:01:38Z">
+      <class name="test.ATMScenarios.SFDCaccountcreation">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="extentSetup" is-config="true" duration-ms="281" started-at="2017-04-12T11:28:25Z" finished-at="2017-04-12T11:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ecedf21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: C:\Users\vinodkumara\Desktop\SFapp_Automation\Portal\test-output\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="instantiateWebDriver()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="instantiateWebDriver" is-config="true" duration-ms="22236" started-at="2017-04-12T11:28:25Z" finished-at="2017-04-12T11:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateWebDriver -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="startExtent" is-config="true" duration-ms="15" started-at="2017-04-12T11:28:48Z" finished-at="2017-04-12T11:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ATMScenarios.SFDCaccountcreation.CreateAcc_SFDC_01() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="CreateAcc_SFDC_01()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_01" duration-ms="91602" started-at="2017-04-12T11:28:48Z" description="(ATM, Account Creation for BSD member) - Verify  user able to create new account" finished-at="2017-04-12T11:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcc_SFDC_01 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="afterEachTestMethod" is-config="true" duration-ms="1080" started-at="2017-04-12T11:30:19Z" finished-at="2017-04-12T11:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAcc_SFDC_01 status=SUCCESS method=SFDCaccountcreation.CreateAcc_SFDC_01()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="CreateAcc_SFDC_02()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_02" duration-ms="5815" started-at="2017-04-12T11:30:20Z" description="(ATM, BSD MemberMapping) - Verify BSD_PrimaryProducer added to newly created account" finished-at="2017-04-12T11:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcc_SFDC_02 -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="startExtent" is-config="true" duration-ms="0" started-at="2017-04-12T11:30:20Z" finished-at="2017-04-12T11:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ATMScenarios.SFDCaccountcreation.CreateAcc_SFDC_02() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="afterEachTestMethod" is-config="true" duration-ms="232" started-at="2017-04-12T11:30:26Z" finished-at="2017-04-12T11:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAcc_SFDC_02 status=SUCCESS method=SFDCaccountcreation.CreateAcc_SFDC_02()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-04-12T11:30:27Z" finished-at="2017-04-12T11:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ATMScenarios.SFDCaccountcreation.CreateAcc_SFDC_03() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="CreateAcc_SFDC_03()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_03" duration-ms="24179" started-at="2017-04-12T11:30:27Z" description="(ATM, Create Secondry BSD Member for SFDC account) - Verify adding new Secondry BSD Member for SFDC account" finished-at="2017-04-12T11:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcc_SFDC_03 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="afterEachTestMethod" is-config="true" duration-ms="102" started-at="2017-04-12T11:30:51Z" finished-at="2017-04-12T11:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAcc_SFDC_03 status=SUCCESS method=SFDCaccountcreation.CreateAcc_SFDC_03()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-04-12T11:30:51Z" finished-at="2017-04-12T11:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ATMScenarios.SFDCaccountcreation.CreateAcc_SFDC_04() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="CreateAcc_SFDC_04()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_04" duration-ms="19786" started-at="2017-04-12T11:30:51Z" description="(ATM, Duplicate BSD Member for SFDC account ) - Add Secondry BSD Member with duplicate values and verify validation message" finished-at="2017-04-12T11:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcc_SFDC_04 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="afterEachTestMethod" is-config="true" duration-ms="173" started-at="2017-04-12T11:31:11Z" finished-at="2017-04-12T11:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAcc_SFDC_04 status=SUCCESS method=SFDCaccountcreation.CreateAcc_SFDC_04()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="startExtent" is-config="true" duration-ms="1" started-at="2017-04-12T11:31:11Z" finished-at="2017-04-12T11:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ATMScenarios.SFDCaccountcreation.CreateAcc_SFDC_05() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="CreateAcc_SFDC_05()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="CreateAcc_SFDC_05" duration-ms="17399" started-at="2017-04-12T11:31:11Z" description="(ATM, Account Creation for GBC member) - Verify  user able to create new account" finished-at="2017-04-12T11:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcc_SFDC_05 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="afterEachTestMethod" is-config="true" duration-ms="137" started-at="2017-04-12T11:31:28Z" finished-at="2017-04-12T11:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateAcc_SFDC_05 status=SUCCESS method=SFDCaccountcreation.CreateAcc_SFDC_05()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="refreshBrowser" is-config="true" duration-ms="9783" started-at="2017-04-12T11:31:28Z" finished-at="2017-04-12T11:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:test.ATMScenarios.SFDCaccountcreation@38102d01]" name="generateReport" is-config="true" duration-ms="5965" started-at="2017-04-12T11:31:38Z" finished-at="2017-04-12T11:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.ATMScenarios.SFDCaccountcreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
